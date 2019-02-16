@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="@string/settings_no_of_news_default"
+        android:inputType="number"
+        android:key="@string/settings_no_of_news_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_no_of_news_label" />
+
+    <SwitchPreference
+        android:title="Show author name"
+        android:key="@string/author_name_key"
+        android:defaultValue="@string/default_author_value"
+        android:summary="@string/show_author_name"/>
+</PreferenceScreen>
